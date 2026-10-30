@@ -1,6 +1,5 @@
 [gd_scene format=3 uid="uid://ckk4b5tj3soni"]
 
-[ext_resource type="Script" uid="uid://557rlu0ulxpb" path="res://scripts/main.gd" id="1_bo1nx"]
 [ext_resource type="Texture2D" uid="uid://685w7imkf8cu" path="res://Sprites/player_tilesheet.png" id="1_jjgbg"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bo1nx"]
@@ -36,7 +35,6 @@ animations = [{
 size = Vector2(87, 119)
 
 [node name="Main" type="Node2D" unique_id=1098319570]
-script = ExtResource("1_bo1nx")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=114332391]
 position = Vector2(44, 60)
